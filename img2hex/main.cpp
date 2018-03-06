@@ -52,7 +52,7 @@ int main(int argc, char *argv[])
     }
     data.append("};\n");
 
-    QFile ofile("output.c");
+    QFile ofile(QString(argv[1]) + ".c");
     ofile.open(QIODevice::WriteOnly);
 
     for (int i = 0; i < data.size(); ++i)
