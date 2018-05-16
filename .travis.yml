@@ -2,4 +2,4 @@ before_install:
 - sudo apt-get update
 - sudo apt-get install qt4-dev-tools
 language: cpp
-script: cd img2hex && qmake
+script: cd img2hex && qmake && make
