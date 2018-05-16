@@ -1,1 +1,3 @@
+install: qt4
 language: cpp
+scripts: cd img2hex && qmake
